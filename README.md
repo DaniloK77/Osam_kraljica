@@ -122,6 +122,10 @@ Allowing sideways moves increases the success rate from roughly 15 % to over 90 
 
 ## Visualization Guide
 
+![Screenshot of the animation showing a solved run](images/screenshot.png)
+
+*A completed run: the algorithm found a valid placement (`h = 0`) in 4 moves.*
+
 The graphical window displays the board at every step of the search:
 
 - **Number on a square** — the value of `h` if the queen of that column were moved to that square.
@@ -135,6 +139,8 @@ The graphical window displays the board at every step of the search:
 ```
 osam_kraljica/
 ├── osam_kraljica.py   # algorithm, statistics and visualization
+├── images/
+│   └── screenshot.png # screenshot used in this README
 └── README.md
 ```
 
